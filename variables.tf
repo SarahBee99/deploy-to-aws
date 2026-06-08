@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "profile" {
   description = "AWS CLI profile name"
   type        = string
-  default     = "ntu"
+  default     = "default"
 }
 
 variable "bucket_prefix" {
