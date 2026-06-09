@@ -13,5 +13,5 @@ variable "profile" {
 variable "bucket_prefix" {
   description = "Prefix for S3 bucket name (must be globally unique)"
   type        = string
-  default     = "myapp-web-"
+  default     = "myapp-web-sarah"
 }
